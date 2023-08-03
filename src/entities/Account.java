@@ -69,7 +69,4 @@ public class Account {
 	public String toString() {
 		return "New balance: " + String.format("%.2f", balance);
 	}
-	
-	
-	
 }

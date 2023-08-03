@@ -10,6 +10,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		try {
 			System.out.println("Enter account data: ");
 			System.out.print("Number: ");
@@ -38,11 +39,8 @@ public class Program {
 		}
 		catch (RuntimeException e) {
 			System.out.println("Unexpected error");
-		}
-		
+		}	
 		
 		sc.close();
-
 	}
-
 }
